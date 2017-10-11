@@ -1,0 +1,25 @@
+body{
+  background:blue;
+}
+
+@media all and (max-width:699px) and (min-width:520px){
+  body{
+    background: green;
+  }
+
+p{
+     font-size: 10vw;
+     text-align: center;
+     color: white;
+}
+}
+
+@media all and (max-width:850px) and (min-width:600px){
+  body {
+    background: red;
+  }
+}
+
+h1 {
+  text-align: center;
+}

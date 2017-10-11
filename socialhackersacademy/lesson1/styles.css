@@ -1,0 +1,33 @@
+body {
+  background: blue;
+}
+
+@media all and (max-width: 699px) and (min-width: 520px) {
+  body {
+    background: red;
+  }
+}
+body{
+  width: 70%;
+  margin: 2% auto;
+}
+
+h2{
+  color:blue;
+}
+.flex-container
+{
+  display : flex;
+}
+
+
+ img{
+   width:40%;
+   height: auto;
+   margin: 1px auto;
+ }
+
+.flex-item {
+  margin-left: 10px;
+  width: 50%;
+}
