@@ -1,0 +1,118 @@
+html {
+  font-size: 100%;
+}
+body{
+  /*width: 90%;
+  margin: 3% auto;*/
+
+    color: #222;
+    font-family: 'AktivGroteskW01-Regular', sans-serif;
+    background-color: #fff;
+    line-height: 1.5em;
+    height: auto;
+    position: relative
+}
+
+.flex-item p a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.flex-item p a:hover {
+  text-decoration: underline;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+  width: 30%;
+}
+.flex-item:nth-child(even) {
+  width: 70%;
+}
+/*div {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}*/
+
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo-item {
+  width: 33%;
+   /*flex: 0 0 33%;*/
+}
+.photo-item img {
+  width: 92%;
+}
+img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+img:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+
+.flex2-item a {
+  display: block;
+  color: black;
+  text-align: left;
+}
+
+.flex2-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex2-item {
+  width: 15%;
+}
+
+.column-01 {
+    left: 16.66667%;
+}
+.column-02 {
+    left: 33.33334%;
+}
+.column-03 {
+    left: 50%;
+}
+.column-04 {
+    left: 66.66667%;
+}
+.column-05 {
+    left: 83.33334%;
+}
+.column {
+    position: absolute;
+    width: 1px;
+    background-color: rgba(0, 0, 0, 0.075);
+    height: 100%;
+    top: 0px;
+}
+
+#site-inner-container {
+    clear: both;
+    position: absolute;
+    padding-bottom: 1em;
+    padding-top: 3em;
+    height: 100%;
+}
+h4 {
+  text-align: center;
+}
+.flex2-item li
+ {
+   list-style-type:  none;
+   font-size: 10pt;
+   text-overflow: ellipsis;
+   display: block;
+
+}
